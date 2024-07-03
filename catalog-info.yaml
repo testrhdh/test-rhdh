@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rhdh.testrhdh123456
+  description: test rhdh
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: testrhdh/test-rhdh
+  links:
+    - url: https://devspaces.apps.ansible-rhdh.testing.ansible.com/#https://github.com/testrhdh/test-rhdh
+      title: Open in Ansible development workspaces
+      icon: web
+spec:
+  type: collection-project
+  lifecycle: production
+  owner: testrhdh
